@@ -1,0 +1,100 @@
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.time-text {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #475569;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .time-text {
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 35px;
+  }
+}
+
+.logo-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-style {
+  height: 15px;
+  width: 15px;
+  margin-right: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-style {
+    height: 14px;
+    width: 14px;
+    margin-right: 20px;
+  }
+}
+
+.title-text {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #475569;
+  font-weight: 500;
+  margin-right: 14px;
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .title-text {
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 20px;
+    width: 100%;
+  }
+}
+
+.url-text {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #64748b;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .url-text {
+    font-size: 12px;
+
+    font-weight: 400;
+  }
+}
+
+.delete-image {
+  height: 18px;
+  width: 18px;
+}
+
+.btn-delete {
+  padding: 3px;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .delete-image {
+    height: 16px;
+    width: 16px;
+  }
+}

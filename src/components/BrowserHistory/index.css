@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.navBar-container {
+  background-color: #3367d6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .navBar-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+  }
+}
+
+.history-image {
+  width: 50px;
+  height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .history-image {
+    width: 100px;
+    height: 25px;
+  }
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+@media screen and (min-width: 768px) {
+  .input-container {
+    width: 40%;
+  }
+}
+
+.search-button {
+  border: solid 1px #64748b;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #2850a7;
+  height: 32px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.search-image {
+  height: 15px;
+  width: 15px;
+}
+
+.input-style {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-size: 8px;
+  border: solid 1px #64748b;
+  background-color: #2850a7;
+  width: 100%;
+  outline: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-size: 12px;
+}
+
+.container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content-container {
+  width: 100%;
+
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .content-container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+}
+
+.empty-heading {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 18px;
+  font-weight: 500;
+}
